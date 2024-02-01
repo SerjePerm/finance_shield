@@ -7,11 +7,15 @@
 <body>
 <br>
 <br>
-<div>1. Tinkoff push parser</div>
+<div>Шаблоны распознования:</div>
 <br>
-<button onclick="copyText()">Copy push parser</button>     
+<div>1. Tinkoff покупка </div>
+<button onclick="copyText()">скопировать в буфер обмена</button>     
 <script>
-function copyText() { navigator.clipboard.writeText('{"extext":"Покупка на 246.95 ₽, карта *4519\nДоступno 1 142.4 ₽","extitle":"Лента","ibalance":8,"icard":6,"id":1,"ipayee":-1,"isActive":true,"ivalue":3,"keywords":"Покупка","packag":"com.idamob.tinkoff.android","title":"Tinkoff buy"}'); }
+function copyText() {
+navigator.clipboard.writeText('{"extext":"Покупка на 123.45 ₽, карта *9876\nДоступнo 76 543.21 ₽","extitle":"Название_магазина","ibalance":8,"icard":6,"id":1,"ipayee":-1,"isActive":true,"ivalue":3,"keywords":"покупка доступно","packag":"com.idamob.tinkoff.android","title":"Tinkoff покупка"}');
+alert("Шаблон скопирован в буфер обмена");
+}
 </script>
 </body>
 </html>
