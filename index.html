@@ -2,6 +2,7 @@
 <html lang="ru">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=320" />
 <title>FinanceShield parsers</title>
 </head>
 <body>
@@ -10,12 +11,28 @@
 <div>Шаблоны распознования:</div>
 <br>
 <div>1. Tinkoff покупка </div>
-<button onclick="copyText()">скопировать в буфер обмена</button>     
+<button onclick="copyText1()">скопировать в буфер обмена 1</button>     
+<button onclick="copyText2()">скопировать в буфер обмена 2</button>     
+<button onclick="copyText3()">скопировать в буфер обмена 3</button>     
 <script>
-function copyText() {
+//
+function copyText1() {
 navigator.clipboard.writeText('{"extext":"Покупка на 123.45 ₽, карта *9876\nДоступнo 76 543.21 ₽","extitle":"Название_магазина","ibalance":8,"icard":6,"id":1,"ipayee":-1,"isActive":true,"ivalue":3,"keywords":"покупка доступно","packag":"com.idamob.tinkoff.android","title":"Tinkoff покупка"}');
 alert("Шаблон скопирован в буфер обмена");
 }
+//
+function copyText2() {
+navigator.clipboard.write('{"extext":"Покупка на 123.45 ₽, карта *9876\nДоступнo 76 543.21 ₽","extitle":"Название_магазина","ibalance":8,"icard":6,"id":1,"ipayee":-1,"isActive":true,"ivalue":3,"keywords":"покупка доступно","packag":"com.idamob.tinkoff.android","title":"Tinkoff покупка"}');
+alert("Шаблон скопирован в буфер обмена");
+}
+//
+function copyText3() {
+val txt = '{"extext":"Покупка на 123.45 ₽, карта *9876\nДоступнo 76 543.21 ₽","extitle":"Название_магазина","ibalance":8,"icard":6,"id":1,"ipayee":-1,"isActive":true,"ivalue":3,"keywords":"покупка доступно","packag":"com.idamob.tinkoff.android","title":"Tinkoff покупка"}');
+val clipboard = event.clipboardData;
+clipboard.setData('text/plain', txt);
+alert("Шаблон скопирован в буфер обмена"';
+}
+//
 </script>
 </body>
 </html>
