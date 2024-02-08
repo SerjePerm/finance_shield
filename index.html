@@ -12,36 +12,39 @@
 <br>
 <div>1. Tinkoff покупка </div>
 <button onclick="copyText1()">скопировать в буфер обмена 1</button>
-<br>     
+<br><br>
 <button onclick="copyText2()">скопировать в буфер обмена 2</button>
-<br>
+<br><br>
 <button onclick="copyText3()">скопировать в буфер обмена 3</button>
 <script>
-//
 function copyText1() {
+alert("1");
 navigator.clipboard.writeText('{"extext":"Покупка на 123.45 ₽, карта *9876\nДоступнo 76 543.21 ₽","extitle":"Название_магазина","ibalance":8,"icard":6,"id":1,"ipayee":-1,"isActive":true,"ivalue":3,"keywords":"покупка доступно","packag":"com.idamob.tinkoff.android","title":"Tinkoff покупка"}');
 alert("Шаблон скопирован в буфер обмена");
 }
-//
+</script>
+<script>
 function copyText2() {
+alert("2");
 navigator.clipboard.write('{"extext":"Покупка на 123.45 ₽, карта *9876\nДоступнo 76 543.21 ₽","extitle":"Название_магазина","ibalance":8,"icard":6,"id":1,"ipayee":-1,"isActive":true,"ivalue":3,"keywords":"покупка доступно","packag":"com.idamob.tinkoff.android","title":"Tinkoff покупка"}');
 alert("Шаблон скопирован в буфер обмена");
 }
-//
+</script>
+<script>
 function copyText3() {
-val txt = '{"extext":"Покупка на 123.45 ₽, карта *9876\nДоступнo 76 543.21 ₽","extitle":"Название_магазина","ibalance":8,"icard":6,"id":1,"ipayee":-1,"isActive":true,"ivalue":3,"keywords":"покупка доступно","packag":"com.idamob.tinkoff.android","title":"Tinkoff покупка"}');
+const txt = '{"extext":"Покупка на 123.45 ₽, карта *9876\nДоступнo 76 543.21 ₽","extitle":"Название_магазина","ibalance":8,"icard":6,"id":1,"ipayee":-1,"isActive":true,"ivalue":3,"keywords":"покупка доступно","packag":"com.idamob.tinkoff.android","title":"Tinkoff покупка"}';
 val clipboard = event.clipboardData;
 clipboard.setData('text/plain', txt);
 alert("Шаблон скопирован в буфер обмена"';
+alert(txt);
 }
-//
 </script>
 <noscript>
 Error! Enable JavaScript!
 </noscript>
-<br><br>
->>><br>
+<br><br>Шаблон:<br>
+<textarea rows="8" cols="40">
 {"extext":"Покупка на 123.45 ₽, карта *9876\nДоступнo 76 543.21 ₽","extitle":"Название_магазина","ibalance":8,"icard":6,"id":1,"ipayee":-1,"isActive":true,"ivalue":3,"keywords":"покупка доступно","packag":"com.idamob.tinkoff.android","title":"Tinkoff покупка"}
-<br><<<
+</textarea>
 </body>
 </html>
