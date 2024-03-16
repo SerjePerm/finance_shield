@@ -1,1 +1,16 @@
-[{"extext":"Text for test 1 value card balance","extitle":"MSG_Title_1","ibalance":7,"icard":6,"id":1,"ipayee":-1,"isActive":true,"ivalue":5,"keywords":"Keywords 1","packag":"Package name 1","title":"Title 1"},{"extext":"Text for test 111 rub 222 visa 333","extitle":"MSG_Titile2","ibalance":8,"icard":6,"id":2,"ipayee":-1,"isActive":true,"ivalue":4,"keywords":"Keywords 2","packag":"Package 2","title":"Title 2"}]
+[
+  {
+    "extext": "Покупка на 123.45 ₽, карта *9876\nДоступнo 76 543.21 ₽",
+    "extitle": "Название_магазина",
+    "ibalance": 8,
+    "icard": 6,
+    "id": 1,
+    "ipayee": -1,
+    "isActive": true,
+    "isExpense": true,
+    "ivalue": 3,
+    "keywords": "покупка доступно",
+    "packag": "com.idamob.tinkoff.android",
+    "title": "Tinkoff покупка"
+  }
+]
