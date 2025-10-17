@@ -1,16 +1,21 @@
 [
-  {
-    "extext": "Покупка на 123.45 ₽, карта *9876\nДоступно 76 543,21 ₽",
-    "extitle": "Название_магазина",
-    "ibalance": 6,
-    "icard": 4,
-    "id": 1,
-    "ipayee": -1,
-    "isActive": true,
-    "isExpense": true,
-    "ivalue": 2,
-    "keywords": "покупка доступно",
-    "packag": "com.idamob.tinkoff.android",
-    "title": "Tinkoff покупка"
-  }
+{
+  "balanceEnd": "%END%",
+  "balanceStart": "Доступно",
+  "cardEnd": "Доступно",
+  "cardStart": "карта",
+  "extext": "Покупка на 4 ₽, карта *4519\nДоступно 7 985,23 ₽\"",
+  "extitle": "Lenta",
+  "id": 1,
+  "isActive": true,
+  "isExpense": true,
+  "keywords": "Покупка",
+  "notKeywords": "",
+  "packag": "com.goodsoft.financeshield",
+  "payeeEnd": "%DIVIDER%",
+  "payeeStart": "%START%",
+  "title": "Tinkoff Buy",
+  "valueEnd": "карта",
+  "valueStart": "Покупка"
+}
 ]
