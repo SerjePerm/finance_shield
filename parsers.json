@@ -14,8 +14,46 @@
   "packag": "com.goodsoft.financeshield",
   "payeeEnd": "%DIVIDER%",
   "payeeStart": "%START%",
+  "title": "Tinkoff [debug]",
+  "valueEnd": "карта",
+  "valueStart": "Покупка"
+}
+{
+  "balanceEnd": "%END%",
+  "balanceStart": "Доступно",
+  "cardEnd": "Доступно",
+  "cardStart": "карта",
+  "extext": "Покупка на 4 ₽, карта *4519\nДоступно 7 985,23 ₽\"",
+  "extitle": "Lenta",
+  "id": 2,
+  "isActive": true,
+  "isExpense": true,
+  "keywords": "Покупка",
+  "notKeywords": "кэшбэк",
+  "packag": "com.idamob.tinkoff.android",
+  "payeeEnd": "%DIVIDER%",
+  "payeeStart": "%START%",
   "title": "Tinkoff Buy",
   "valueEnd": "карта",
+  "valueStart": "Покупка"
+}
+{
+  "balanceEnd": "%END%",
+  "balanceStart": "Доступно",
+  "cardEnd": "Доступно",
+  "cardStart": "карта",
+  "extext": "Покупка на 190 ₽, кэшбэк 1 ₽, карта *4519\nДоступно 7 985,23 ₽\"",
+  "extitle": "Lenta",
+  "id": 3,
+  "isActive": true,
+  "isExpense": true,
+  "keywords": "Покупка кэшбэк",
+  "notKeywords": "",
+  "packag": "com.idamob.tinkoff.android",
+  "payeeEnd": "%DIVIDER%",
+  "payeeStart": "%START%",
+  "title": "Tinkoff Buy кэшбек",
+  "valueEnd": "кэшбэк",
   "valueStart": "Покупка"
 }
 ]
