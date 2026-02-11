@@ -1,0 +1,34 @@
+0 Git CMD / Git Bash
+0 d:
+
+paste - Shit+ Ins
+
+1.
+cd D://Soft//AndroidStudioProjects//finance_shield
+or
+cd D:\\Soft\\AndroidStudioProjects\\finance_shield
+"into the project directory"
+
+2.
+git status
+"view changed files (optional)"
+
+3.
+git add -A
+"add all files"
+
+4.
+git commit -m "16.03.24"
+"create commit"
+
+5.
+git push origin main
+"push to remote branch main"
+
+6.
+exit
+
+
+-----------
+git pull - to update
+Shift + zz - To Exit enter commit message

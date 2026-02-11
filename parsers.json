@@ -55,5 +55,24 @@
   "title": "Tinkoff Buy кэшбек",
   "valueEnd": "кэшбэк",
   "valueStart": "Покупка"
+},
+{
+  "balanceEnd": "заемные",
+  "balanceStart": "деньги",
+  "cardEnd": "",
+  "cardStart": "",
+  "extext": "ХАЛВА оплата 251 руб. в STOLOVAYA 1, Perm. Баланс: свои деньги 3393.22 руб., заемные средства 0.10 руб.",
+  "extitle": "Халва-Совкомбанк",
+  "id": 3,
+  "isActive": true,
+  "isExpense": true,
+  "keywords": "оплата баланс",
+  "notKeywords": "",
+  "packag": "ru.sovcomcard.halva.v1",
+  "payeeEnd": "Баланс",
+  "payeeStart": "руб. в ",
+  "title": "Халва покупка",
+  "valueEnd": "руб.",
+  "valueStart": "оплата"
 }
 ]
